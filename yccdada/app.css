@@ -1,0 +1,55 @@
+section{
+    text-align: center;
+    padding: 15px;
+}
+button{
+    font-size: 25px;
+    padding: 14px 25px;
+    border: none;
+    outline: none;
+    margin: 10px;
+    box-shadow: 0 0 5px gray;
+}
+button:hover{
+    opacity: 0.8;
+    cursor: pointer;
+}
+table , th , td{
+    text-align: center;
+    padding: 15px;
+    font-size: 20px;
+}
+table{
+    width: 80%;
+    margin: auto;
+    box-shadow: 0 0 5px gray;
+}
+table th{
+   background-color: #5DADE2;
+    color: white;
+}
+
+input[type="search"]{
+    font-size: 30px;
+    border: 1px solid #5DADE2;
+    outline: none;
+    height: 50px;
+    border-radius: 5px;
+    margin: 10px;
+}
+input[type="search"]:focus{
+    box-shadow: 0 0 10px #5DADE2;
+}
+p{
+    font-size: 18px;
+    margin: 0;
+}
+span{
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+label {
+    font-family: ·L³n¥¿¶ÂÅé
+}

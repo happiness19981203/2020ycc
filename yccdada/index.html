@@ -1,0 +1,57 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>2020青年城市論壇入選名單</title>
+    <link rel="stylesheet" href="../css/styles.css">
+    <link rel="stylesheet" href="app.css">
+</head>
+
+<body>
+    <section>
+        <h1 style="font-weight:bold">2020青年城市論壇入選名單查詢</h1>
+        <select class="form-control" id="searchBy" style=" font-size: 18px; height: 45px !important;display:inline">
+            <option value="searchByName">姓名</option>
+            <option value="searchByDepartment">科系</option>
+        </select>
+        <input type="search" placeholder="請輸入完整姓名" id="search-box">   <button id="search-btn" style="display:inline">查詢</button> <button id="all-emp-btn">所有名單</button><br />
+        <label>     ※操作說明：若<label style="color:lightseagreen">只參與第二天</label>，Woekshop則顯示<label style="color:deeppink">空白</label>。；</label><br />
+       <form style="margin-top:5px">
+            <label style="color:red;font-weight:bold;font-family:微軟正黑體">※若有報名成功，但查詢不到資料，請至【大大集散地】的FB及IG私訊小編！</label>
+            <div id="results">
+            </div>
+        </form>
+    </section>
+    <div>
+        <div class="r" style="text-align:right">
+            <button id="backTop" style=" background: rgba(128,0,128,0.5);font-family:超研澤特圓;color:white">回到頂端</button>
+        </div>
+    </div>
+    <table>
+        <thead>
+            <tr>
+                <th>序號</th>
+                <th>姓名</th>
+                <th>組別</th>
+                <th>學校</th>
+                <th>科系</th>
+                <th>Workshop課程</th>
+            </tr>
+        </thead>
+        <tbody id="table_body"></tbody>
+    </table>
+    <!--<footer style="text-align:center;"><button type="button" id="backTop" class="toTop-arrow">回到頂端</button></footer>-->
+    <script src="script.js"></script>
+    <style>
+        .r {
+            bottom: 0;
+            margin-bottom: 3%;
+            position: fixed !important;
+            right: 1.5%;
+        }
+        label {
+            font-family: 微軟正黑體
+        }
+    </style>
+</body>
+</html>
